@@ -1,20 +1,20 @@
-import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
 
 function NavBar() {
   return (
     <>
-      <Navbar bg="dark">
-        <Container>
-          <Navbar.Brand href="#home">Logo</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Inicio</Nav.Link>
-            <Nav.Link href="#features">Productos</Nav.Link>
-            <Nav.Link href="#pricing">Ayuda</Nav.Link>
-            <Nav.Link href="#pricing">Contacto</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+      <nav>
+        <div>
+          <h1 href="#home">Logo</h1>
+        </div>
+        <div>
+          <ul>
+            <li href="#home"><a href=""> Inicio</a></li>
+            <li href="#features"><a href=""> Productos</a></li>
+            <li href="#pricing"><a href=""> Contacto</a></li>
+            <li href="#pricing"><a href=""><img src="img/carrito.png" alt="" width="20px" /></a></li>
+          </ul>
+        </div>
+      </nav>
     </>
   );
 }

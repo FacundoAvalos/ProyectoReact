@@ -1,16 +1,16 @@
-import React from 'react';
-import { main } from 'react-bootstrap';
-
 function Main() {
-  return (
-    <>
-     <main>
-        <div>
-            <h1>Tienda</h1>
-        </div>
-     </main>
-    </>
-  );
+    return(
+
+        <section>
+            <div className="banner" >
+            <img src="../../../img/banner.jpg" width="1100px" alt="" />
+            </div>
+            <div className="nombre">
+                <h1>Tienda</h1>
+            </div>
+        </section>
+
+    );
 }
 
 export default Main;
